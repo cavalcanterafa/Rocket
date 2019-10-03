@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso de JS</title>
+    <body>
+      <script>
+        function temHabilidade(skills) {
+          var find = "Javascript";
+
+          if (skills.indexOf(find) > -1) {
+            skills = true;
+          } else {
+            skills = false;
+          }
+          console.log(skills);
+        }
+
+        var skills = ["Javascript", "ReactJS", "React Native"];
+        temHabilidade(skills); // true ou false
+      </script>
+    </body>
+  </head>
+</html>
